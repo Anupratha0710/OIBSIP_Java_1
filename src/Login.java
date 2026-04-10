@@ -15,7 +15,7 @@ public class Login {
             ResultSet rs = ps.executeQuery();
 
             if (rs.next()) {
-                return rs.getInt("id"); // return user_id
+                return rs.getInt("id"); 
             }
 
         } catch (Exception e) {
